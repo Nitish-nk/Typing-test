@@ -150,3 +150,28 @@ body {
     font-weight: 500;
 }
 
+
+@media screen and (max-width: 650px) {
+    .wrapper {
+        width: 300px;
+        height: 600px;
+        padding: 5px;
+        margin: 10px;
+    }
+    .typing-text span{
+        font-size: 15px;
+        /* word-break: break-all; */
+        letter-spacing: normal;
+    }
+    .wrapper .content-box {
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* height: 30px; */
+    }
+    .content-box .typing-text {
+        /* max-height: 255px; */
+        /* overflow-y: none; */
+    }
+    
+}
