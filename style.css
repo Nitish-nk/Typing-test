@@ -160,18 +160,27 @@ body {
     }
     .typing-text span{
         font-size: 15px;
-        word-break: break-all;
+        /* word-break: break-all; */
         letter-spacing: normal;
     }
-    .wrapper .content-box {
-        /* display: flex; */
-        /* justify-content: center; */
-        /* align-items: center; */
-        /* height: 30px; */
+    .content .result-details{
+        display: flex;
+        flex-direction: column;
     }
-    .content-box .typing-text {
-        /* max-height: 255px; */
-        /* overflow-y: none; */
+    .result-details li {
+        height: 49px;
+        width: 150px;
+    }
+    .result-details li:not(:first-child) {
+        /* padding-left: 22px; */
+        padding-left: 0;
+        border-left: 1px solid #ccc;
+    }
+    .content-box .content {
+        display: block;
+    }
+    .content button {
+        margin-left: 70px;
     }
     
 }
